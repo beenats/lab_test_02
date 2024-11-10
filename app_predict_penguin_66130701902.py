@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
  
 # Load the model and encoders
-with open('model_penguin_66130701921.pkl', 'rb') as file:
+with open('model_penguin_66130701902.pkl', 'rb') as file:
     model, species_encoder, island_encoder, sex_encoder = pickle.load(file)
  
 # Streamlit interface
